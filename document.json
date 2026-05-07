@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "source": "Maharashtra State CET Cell — Government of Maharashtra",
+    "portal": "https://fe2025.mahacet.org",
+    "source_file": "document.pdf",
+    "year": 0,
+    "cap_round": "UNKNOWN",
+    "quota": "MS",
+    "quota_note": "Maharashtra State seats (85% of intake). Cutoff = MHT-CET PCM percentile.",
+    "total_records": 0,
+    "colleges_parsed": 1562,
+    "record_schema": {
+      "year": "Academic year (2025 = AY 2025-26, 2024 = AY 2024-25)",
+      "cap_round": "CAP1 | CAP2 | CAP3 | CAP4",
+      "quota": "MS = Maharashtra State (85% seats) | AI = All India (15% seats)",
+      "college_code": "5-digit CET Cell college identifier",
+      "college_name": "Full name of the college",
+      "branch_code": "10-digit branch code (first 5 digits match college_code)",
+      "branch_name": "Engineering branch / specialisation name",
+      "status": "College type (Government / Aided / Un-Aided / Autonomous etc.)",
+      "seat_type": "Seat grouping (State Level / Home University / Other Than HU etc.)",
+      "stage": "Allotment stage: I | II | III | VII | I-Non",
+      "cutoffs": {
+        "_note": "Only categories that had seats allotted appear here.",
+        "merit_no": "Closing State General Merit Number (lower rank = better)",
+        "percentile": "Closing MHT-CET PCM percentile (MS) or JEE Main score (AI)"
+      }
+    },
+    "category_legend": {
+      "how_to_read": "Format: [Prefix][Category][Suffix]. Example: GOPENS = G(General seats) + OPEN(Open/General category) + S(State Level). LSCS = L(Ladies) + SC(Scheduled Caste) + S(State Level).",
+      "prefix": {
+        "G": "General seats (open to all genders)",
+        "L": "Ladies-only seats"
+      },
+      "category": {
+        "OPEN": "Open / General category",
+        "SC": "Scheduled Caste",
+        "ST": "Scheduled Tribe",
+        "VJ": "Vimukta Jati (Denotified Tribes)",
+        "NT1": "Nomadic Tribe 1 (NT-A)",
+        "NT2": "Nomadic Tribe 2 (NT-B)",
+        "NT3": "Nomadic Tribe 3 (NT-C/D)",
+        "OBC": "Other Backward Class",
+        "SEBC": "Socially & Educationally Backward Class",
+        "EWS": "Economically Weaker Section",
+        "PWD": "Persons with Disability",
+        "PWDR": "PWD Reserved carry-forward",
+        "DEF": "Defence category",
+        "DEFR": "Defence Reserved carry-forward",
+        "TFWS": "Tuition Fee Waiver Scheme",
+        "MI": "Minority seats",
+        "ORPHAN": "Orphan category"
+      },
+      "suffix": {
+        "S": "State Level seat",
+        "H": "Home University seat",
+        "O": "Other than Home University seat"
+      },
+      "stage": {
+        "I": "Stage I — first preference allotment",
+        "II": "Stage II — second preference",
+        "III": "Stage III — third preference",
+        "VII": "Stage VII — betterment round",
+        "I-Non": "I (Non-PWD) or I (Non-Defence) sub-stage"
+      }
+    },
+    "pdf_url_templates": {
+      "MS": "https://fe2025.mahacet.org/{year}/{year}ENGG_{round}_CutOff.pdf",
+      "AI": "https://fe2025.mahacet.org/{year}/{year}ENGG_{round}_AI_CutOff.pdf"
+    }
+  },
+  "data": []
+}
